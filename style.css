@@ -1,0 +1,98 @@
+.title h1::after{
+    content: "";
+    width: 70px;
+    height: 1px;
+    display:inline-block ;
+    background: gold;
+}
+.title h1::before{
+    content:"";
+    width: 70px;
+    height: 1px;
+    display: inline-block;
+    background: gold;
+}
+.title h1{
+    font-family: "Poppins", sans-serif;
+    color: #aaaaaa;
+    text-transform: uppercase;
+}
+.font-italic{
+    font-style: italic !important;
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+li{
+    padding-bottom: 10px;
+}
+i{
+    color: gold;
+    font-size: 20px;
+    padding-right: 2px;
+}
+.sub-title h2{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #aaaaaa;
+}
+.sub-title h2::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background:gold;
+}
+.progress{
+    margin-bottom: 2.2em;
+}
+.interests .box{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.interests .box i{
+    font-size: 30px;
+    padding-right: 10px;
+    line-height: 1;
+}
+.interests .box h3{
+    font-size: 16px;
+    color: #fff;
+}
+.card-text{
+    font-size: 14px;
+    line-height: 24px;
+}
+  .item{
+      transition: 0.5s ease-in-out;
+  }
+  .item:hover{
+      filter: brightness(80%);
+  }
+  .form-control{
+      background-color: transparent;
+      color: #fff;
+  }
+  .form-control:focus{
+      background-color:black;
+      color: #fff;
+  }
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group input[type="tel"]:focus{
+      border: 2px solid goldenrod;
+      box-shadow: none;
+  }
+  .form-group textarea:focus{
+      border: 2px solid goldenrod;
+      box-shadow: none;
+  }
+  .form-group button:focus{
+      outline: none;
+      box-shadow: none;
+  }
+ 
+
